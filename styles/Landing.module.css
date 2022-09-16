@@ -1,0 +1,23 @@
+.imgcontainer {
+  width: 100%;
+  margin-top: 3rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgcontainer p {
+  position: absolute;
+  top: 50%;
+  width: 30%;
+  color: rgba(243, 239, 235, 0.63);
+}
+
+@media screen and (max-width: 900px) {
+  .imgcontainer p {
+    top: 30%;
+    width: 70%;
+  }
+}

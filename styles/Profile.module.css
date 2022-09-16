@@ -1,0 +1,73 @@
+.profile {
+  width: 100%;
+}
+
+.tab {
+  color: #fff !important;
+  text-align: center;
+}
+
+.profilebody {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  width: 20%;
+  margin: auto;
+  place-items: center;
+}
+
+.box {
+  border: 1px solid #8cbbff;
+  border-radius: 5px;
+  width: 120px;
+  height: 120px;
+}
+
+.profilepage {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+/* 
+.input span {
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+  width: 10px;
+  height: 10px;
+} */
+
+.input input {
+  padding: 5px;
+  margin: 5px;
+  padding-left: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(4px);
+  border-radius: 4px;
+  border: none;
+}
+
+@media screen and (max-width: 900px) {
+  .gallery {
+    width: 100%;
+  }
+}

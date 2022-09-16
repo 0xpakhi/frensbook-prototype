@@ -1,0 +1,8 @@
+.inputfield {
+  position: relative;
+  opacity: 0.3;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  padding: 10px;
+  width: 20%;
+}

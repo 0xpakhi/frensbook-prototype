@@ -1,0 +1,38 @@
+.filledbutton {
+  background: #4668fb;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.outlinebutton {
+  background: rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #4668fb;
+  padding: 10px 30px;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+  color: #8cbbff;
+  padding: 2px;
+  width: 10%;
+}
+
+@media screen and (max-width: 900px) {
+  .tag {
+    width: 40%;
+  }
+}
